@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 50vw;
+    background-color: #585858;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.box h1{
+    text-align: center;
+}
+.input-field{
+    width: 100%;
+    margin-top: 0.7rem;
+}
+.input-field input{
+    width: 100%;
+    padding: 0.7rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+.check-items{
+    margin-top: 0.7rem;
+    display: flex;
+    gap: 2rem
+
+}
+.check-items input{
+    margin-right: 10px;
+}
+
+.check-items input[type ='range']{
+    cursor: pointer;
+}
+.check-items input[type ='checkbox']{
+    cursor: pointer;
+    padding: 2px;
+}
