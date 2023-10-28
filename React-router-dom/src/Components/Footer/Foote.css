@@ -1,0 +1,45 @@
+.footer-area {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8rem;
+  background-color: #eeeded;
+  border-top: 1px solid black;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.foot-logo h2 {
+  color: #d71313;
+  font-size: 1.5rem;
+}
+.menu-items {
+  text-align: center;
+}
+.menu-items li {
+  margin-top: 0.5rem;
+}
+.menu-items li a {
+  font-size: 1rem;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 1rem;
+}
+.facebook {
+  color: blue;
+  cursor: pointer;
+}
+.instagram {
+  color: rgb(242, 24, 195);
+  cursor: pointer;
+}
+.twitter {
+  color: rgb(0, 187, 255);
+  cursor: pointer;
+}

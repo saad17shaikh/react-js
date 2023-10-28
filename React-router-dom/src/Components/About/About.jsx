@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./About.css";
 
 export default function About() {
   return (
-    <div>
-      Hello I am About
-    </div>
-  )
+    <>
+      <div className="about-container">
+        
+      </div>
+    </>
+  );
 }
