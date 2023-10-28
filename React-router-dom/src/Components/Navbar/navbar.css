@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 62.5%;
+    background-color: #FFF5E0;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+.navbar{
+    height: 5rem;
+    background-color: #EEEDED;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 99;
+}
+
+.logo{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h3{
+    color: #0D1282;
+    font-family: cursive;
+}
+.logo h3 span{
+    color: #D71313;
+}
+.menu-list{
+    display: flex;
+    font-size: 1.2rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+    gap: 0.2rem
+}
+.menu-list li a{
+    /* margin: 0 1rem; */
+    padding: 0.7rem;
+    color: #0D1282;
+    transition: all 0.5s linear;
+}
+li  a.active{
+    color: #D71313;
+}
+.menu-list li a:hover{
+    color:#D71313;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon p{
+    font-size: 1.5rem;
+    color: black;
+}
+
+@media (max-width:980px){
+    .menu-list{
+        margin-right: 2rem;
+    }
+}
+@media (max-width:767px) {
+    .navbar{
+        background-color: #FFF5E0;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 3rem;
+        cursor: pointer;
+    }
+    .menu-mobile{
+        display: block;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 5rem;
+        height: 30rem;
+        width: 100vw;
+        background-color:#C70039;
+        z-index: 99;
+    }
+    .menu-mobile ul{
+        flex-direction: column;
+        z-index: 100;
+        gap: 2rem;
+    }
+    .menu-mobile ul li{
+        color: #C70039;
+
+    }
+    .menu-mobile li:hover{
+        color:#FFF5E0;
+    }
+}
